@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height:100vh;
+    width:100%;
+    background-color: rgb(7, 13, 14);
+    overflow:scroll;
+    
+}
+
+/* ****************************** */
+/* navbar section start */
+
+.navbar_section{
+    height:70px;
+    width:100%;
+    background-color: rgb(26, 34, 36);
+
+    display:flex;
+
+    position: fixed;
+
+}
+
+.nav_sec_1{
+    height:100%;
+    width:20%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height:32px;
+    width:230px;
+
+    margin-left: 20px;
+}
+.nav_sec_2{
+    height:100%;
+    width:60%;
+    /* background-color: burlywood; */
+
+   
+
+}
+.nav_sec_2 ul{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    padding-top:30px;
+
+    list-style-type: none;
+    
+
+}
+.nav_sec_2 ul li {
+    Font-family: "Amazon Ember", Arial, sans-serif;
+
+    Font-size: 16px;
+
+    Font-weight: 700;
+
+    line-height: 15px;
+
+    color: rgb(255, 255, 255);
+}
+
+.nav_sec_3{
+    height:100%;
+    width:20%;
+    /* background-color: chartreuse; */
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right:30px;
+    
+}
+
+.nav_sec_3 i{
+    color: white;
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+/* navbar end */
+/* *************************************** */
+/* hero section start */
+
+.display_img{
+    height:190px;
+    width:100%;
+    /* background-color: chocolate; */
+    margin-top:70px;
+
+}
+.display_img img{
+    height:250px;
+    width:100%;
+
+}
+
+
+.top_trending{
+    height:200px;
+    width:100%;
+    /* background-color: cadetblue; */
+    margin-top: 20px;
+    padding-top: 40px;
+    
+}
+
+.top_trending_10{
+    margin-top:20px;
+    padding-left:50px;
+}
+
+
+.top_trending_10 p{
+    Font-family: "Amazon Ember", Arial, sans-serif;
+
+    Font-size: 20px;
+
+    Font-weight: 500;
+
+    color: rgb(255, 255, 255);
+
+    /* background-color: brown; */
+
+    
+    
+}
+.top_trending_img{
+    height:152px;
+    width:100%;
+
+    /* background-color: blue; */
+
+    display: flex;
+    align-items: center;
+
+    padding-left:40px;
+    margin-top: 10px;
+}
+
+.top_trending_img img{
+    height:150px;
+    width:270px;
+
+    margin-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* --- Styles for Carousel Scroll Buttons (New Feature) --- */
+.scroll-button-right, .scroll-button-left {
+    position: absolute;
+    top: 50%; /* Center vertically within the .top_trending container */
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 15px 10px;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s;
+}
+
+.scroll-button-right {
+    right: 5px; 
+}
+
+.scroll-button-left {
+    left: 5px;
+}
+
+/* Show buttons when hovering over the entire content row */
+.top_trending:hover .scroll-button-right, 
+.top_trending:hover .scroll-button-left {
+    opacity: 1;
+}
+
+/* Ensure the parent is positioned for the absolute buttons */
+.top_trending {
+    position: relative; /* Crucial for positioning the absolute scroll buttons */
+}
+
+
+/* --- Styles for Poster Hover Overlay (New Feature) --- */
+.poster-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    /* You can add a fade-in animation here */
+}
+
+/* Fix for the carousel row to contain the absolutely positioned overlay */
+.top_trending_img img {
+    /* ... existing styles ... */
+    height: 150px;
+    width: 270px;
+    margin-left: 10px;
+}
+/* Ensure the image's immediate parent is correctly set for relative positioning */
+.top_trending_img > * { 
+    position: relative; 
+}
