@@ -30,7 +30,6 @@
 .nav_sec_1{
     height:100%;
     width:20%;
-    /* background-color: pink; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,9 +43,6 @@
 .nav_sec_2{
     height:100%;
     width:60%;
-    /* background-color: burlywood; */
-
-   
 
 }
 .nav_sec_2 ul{
@@ -58,7 +54,6 @@
 
     list-style-type: none;
     
-
 }
 .nav_sec_2 ul li {
     Font-family: "Amazon Ember", Arial, sans-serif;
@@ -157,15 +152,6 @@
 
     margin-left:10px;
 }
-
-
-
-
-
-
-
-
-
 
 /* --- Styles for Carousel Scroll Buttons (New Feature) --- */
 .scroll-button-right, .scroll-button-left {
