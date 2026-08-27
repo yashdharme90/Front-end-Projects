@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    width:100%;
+    background-image: url(./media/10002.jpg);
+    background-size: cover;
+}
+
+/* header section start */
+.header_section{
+    height:200px;
+    width:100%;
+    /* background-color: aqua; */
+}
+
+
+.header_section .header_section1{
+    height:135px;
+    width:100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    
+
+
+}
+.header_section1 .header_section1_div1{
+    height:130px;
+    width:40%;
+    /* background-color: burlywood; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-right: 180px;
+
+}
+.header_section1 .header_section1_div2{
+    height:130px;
+    width:60%;
+    /* background-color: darkcyan; */
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 60px;
+
+}
+
+.header_section .header_section2{
+    height:65px;
+    width:87%;
+    background-color: rgb(23, 38, 75);
+
+    margin-left: 90px;
+    margin-right: 90px;
+
+    display:flex;
+}
+
+.header_section1_div2 button{
+    height:46px;
+    width:124px;
+    border: none;
+    color: white;
+    background-color: rgb(48, 57, 172);
+
+    Font-family: "Open Sans", sans-serif;
+
+    Font-size: 13px;
+
+    Font-weight: 700;
+
+    Line-height: 20.4px;
+
+    margin-right: 10px;
+}
+
+.header_section1_div2 span{
+
+    font-family: "Open Sans", sans-serif;
+
+    Font-size: 16px;
+
+    Font-weight: 700;
+
+    Line-height: 16px;
+
+    color: rgb(255, 255, 255);
+
+    margin-left: 20px;
+}
+.header_section1_div2 span .p{
+    Font-family: "Open Sans", sans-serif;
+
+    Font-size: 13px;
+
+    Font-weight: 400;
+
+    Line-height: 13px;
+
+    color: rgb(186, 205, 255);
+
+    margin-top: 5px;
+}
+/* ************************************************* */
+.header_section2 .header_section2_div1{
+    height:65px;
+    width:50%;
+    /* background-color: chartreuse; */
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.header_section2_div1 p{
+    Font-family: Montserrat, sans-serif;
+
+    Font-size: 16px;
+
+    Font-weight: 600;
+
+    Line-height: 27.2px;
+
+    color: rgb(153, 176, 226);
+
+}
+.header_section2_div1 form a{
+    Font-family: Montserrat, sans-serif;
+
+    Font-size: 16px;
+
+    Font-weight: 600;
+
+    Line-height: 27.2px;
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header_section2 .header_section2_div2{
+    height: 65px;
+    width:50%;
+    /* background-color: brown; */
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+
+    padding-right: 20px;
+}
+.header_section2_div2 i{
+    height:14px;
+    width:13px;
+
+    margin-right: 20px;
+}
+.img{
+    font-size:8px;
+}
+/* header section end */
+/* ***************************************** */
+
+.hero_section{
+    height: 180px;
+    width:600px;
+    /* background-color: chocolate; */
+
+    margin-top: 90px;
+    margin-left: 90px;
+} 
+
+.hero_section h1{
+    font-size: 135px;
+
+    Font-family: Montserrat, sans-serif;
+    color: white;
+}
+
+.hero_section_2 {
+    height: 80px;
+    width:800px;
+
+    /* background-color: darkcyan; */
+
+    margin-left: 90px;
+    margin-bottom: 10px;
+
+}
+.hero_section_2 h3{
+    font-family: "Open Sans";
+
+    Font-size: 23px;
+
+    Font-weight: 400;
+
+    Line-height: 32px;
+
+    color: rgb(255, 255, 255);
+    
+}
+
+.button_type{
+    margin-left:90px ;
+}
+
+.button_type button{
+    height:50px;
+    width:150px;
+
+    
+    border:3px solid white;
+
+    background-color: transparent;
+    border-radius: 30px;
+    color:white;
+
+    Font-family: Montserrat, sans-serif;
+
+    Font-size: 16px;
+    
+    Font-weight: 600;
+ 
+}
+.button_type .button2{
+    background-color: rgb(55, 64, 176);
+    border: none;
+}
+.button_type .button1:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(55, 64, 176);
+}
+.button_type .button2:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(55, 64, 176);
+    
+}
+
+
+
+
+
